@@ -18,7 +18,7 @@ function ProfileForm(props) {
   return (
     <form className={classes.form} onSubmit={submitHandler}>
       <div className={classes.control}>
-        <label htmlFor="new-password">New Password</label>
+        <label htmlFor="new-password">Add New Password</label>
         <input type="password" id="new-password" ref={newPasswordRef} />
       </div>
       <div className={classes.control}>
